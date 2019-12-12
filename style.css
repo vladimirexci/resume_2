@@ -1,0 +1,307 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/5.10.0/css/font-awesome.min.css");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.block {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.block2 {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrap {
+  width: 800px;
+  height: 100%;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.name__main {
+  width: 600px;
+  margin-bottom: 15px;
+  margin-left: -123px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.hero__img {
+  display: block;
+}
+
+.hero__cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.hero__contacts {
+  width: 400px;
+  
+}
+
+.item1 {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+
+.item1:before {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #000;
+  top: 4px;
+  left: -18px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+span {
+  display: block;
+}
+
+/* section.education */
+.education {
+  background-color: #ededed;
+}
+
+.education__block1 {
+  width: 288px;
+  height: 100%;
+  padding-left: 37px;
+}
+
+.education__block2 {
+  width: 514px;
+}
+
+.education__block1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.education__college {
+  margin-bottom: 15px;
+}
+
+.education__date {
+  font-size: 15px;
+  font-weight: 300;
+  color: #3a3a3a;
+  margin-bottom: 3px;
+}
+
+.education__university1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.education__faculty {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.education__profile {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+/* section.experience */
+.experience {
+  background-color: #f9f9f9;
+}
+
+.experience-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__block1 {
+  width: 288px;
+  height: 100%;
+  padding-left: 37px;
+}
+
+.experience__block2 {
+  width: 514px;
+  margin-bottom: 15px;
+}
+
+.experience__block1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.experience__date {
+  font-size: 15px;
+  font-weight: 300;
+  color: #3a3a3a;
+  margin-bottom: 3px;
+}
+
+.experience__specialty {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.experience__job {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+/* section.skills */
+.skills__block1 {
+  width: 288px;
+  height: 100%;
+  padding-left: 37px;
+}
+
+.skills__block2 {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills__block1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills__box {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.skills__box1 {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.prof-skills {
+
+}
+
+/* section.language */
+.language {
+  background-color: #ededed;
+}
+
+.language__block1 {
+  width: 288px;
+  height: 100%;
+  padding-left: 37px;
+}
+
+.language__block2 {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.language__block1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.language__box {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.language__box:last-child {
+  margin: 0;
+}
+
+/* section.aboutme */
+.aboutme__block1 {
+  width: 288px;
+  height: 100%;
+  padding-left: 37px;
+}
+
+.aboutme__block2 {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutme__block1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.aboutme__box {
+  width: 500px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
